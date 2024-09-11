@@ -1,0 +1,10 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Motor Speed Monitor" Width="400" Height="300">
+    <StackPanel>
+        <TextBlock Text="Motor Speed" FontSize="20" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="MotorSpeedText" Text="0 RPM" FontSize="16" HorizontalAlignment="Center"/>
+        <Button Content="Start" Width="100" Click="OnStartClicked" HorizontalAlignment="Center"/>
+        <Button Content="Stop" Width="100" Click="OnStopClicked" HorizontalAlignment="Center"/>
+    </StackPanel>
+</Window>
